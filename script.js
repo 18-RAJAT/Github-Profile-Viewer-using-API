@@ -57,7 +57,7 @@ const getUser = async (username) => {
     getRepos(username);
   } catch (error) {
     if (error.response.status == 404)
-      createErrorCard("No profile with this username");
+      createErrorCard("No profile with this username and try again!");
   }
 };
 
