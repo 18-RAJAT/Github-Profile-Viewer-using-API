@@ -14,7 +14,7 @@ body{
     justify-content: center;
     height: 100vh;
     overflow: hidden;
-    margin: 0;
+    margin:0;
 }
 
 .user-form{
@@ -25,7 +25,7 @@ body{
 .user-form input{
     width: 100%;
     display: block;
-    background-color: #4c2885;
+    background-color: #8446e9;
     border: none;
     border-radius: 10px;
     color: #fff;
@@ -33,25 +33,20 @@ body{
    margin-bottom: 2rem;
    font-family: inherit;
    font-size: 1rem;
-   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
-   0 15px 40px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 5px 10px rgba(58, 97, 255, 0.712),
+   0 15px 40px rgba(0, 0, 0, 0.541);
 }
 
-
-.user-form input:focus {
-    outline: none;
-  }
-  
   .user-form input::placeholder {
-    color: #bbb;
+    color: rgb(0, 0, 0);
   }
   
   .card {
     max-width: 800px;
-    background-color: #4c2885;
+    background-color: #a068e0;
     border-radius: 20px;
-    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
-      0 15px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgb(120, 17, 255),
+      0 15px 40px rgb(0, 0, 0);
     display: flex;
     padding: 3rem;
     margin: 0 1.5rem;
@@ -59,7 +54,6 @@ body{
   
   .avatar {
     border-radius: 50%;
-    border: 5px solid #3d3da7;
     height: 150px;
     width: 150px;
   }
@@ -94,7 +88,7 @@ body{
   .repo {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    background-color: #212a72;
+    background-color: #181753;
     font-size: 0.7rem;
     padding: 0.25rem 0.5rem;
     margin-right: 0.5rem;
